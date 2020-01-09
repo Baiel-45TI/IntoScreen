@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "800515747667",
+    "firebase_url": "https://introscreen-master-342ca.firebaseio.com",
+    "project_id": "introscreen-master-342ca",
+    "storage_bucket": "introscreen-master-342ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800515747667:android:ee3ffded1175db81ebbba6",
+        "android_client_info": {
+          "package_name": "com.labawsrh.aws.introscreen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800515747667-6kbuoplcigptov9rit1p4ei46hrc626c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.labawsrh.aws.introscreen",
+            "certificate_hash": "eb0a7d638d20e2114399faa7b32971f8f5966630"
+          }
+        },
+        {
+          "client_id": "800515747667-jip80b2i5g50rrl3mvn8oltkep6bmlpe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkui5oFj7gcIOdXek6YSby3zFbY8Bu9NE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800515747667-jip80b2i5g50rrl3mvn8oltkep6bmlpe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityTwo">
+
+
+    <ImageView
+        android:id="@+id/btn_next"
+        android:layout_width="60dp"
+        android:layout_marginTop="164dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        app:srcCompat="@drawable/kaxa1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Срок"
+        android:textSize="15dp"
+        android:textColor="@color/oval_button"
+        android:gravity="start"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="140dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/textTest"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="275dp"
+        android:hint="Введите задачу здесь"
+        android:textSize="15dp">
+
+
+    </EditText>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:textSize="15dp"
+        android:textColor="@color/oval_button"
+        android:gravity="start"
+        android:layout_marginLeft="10dp"
+        android:text="Что должно  быть сделано?">
+
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/dateView"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:hint="Время не установил (весь день)">
+
+    </EditText>
+
+    <ImageView
+        android:id="@+id/btn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="275dp"
+        android:background="@drawable/spic"
+        >
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="15dp"
+        android:textColor="@color/oval_button"
+        android:gravity="start"
+        android:layout_marginLeft="10dp"
+        android:text="Время">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/textView"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="164dp"
+        android:hint="Дата не установлена"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp">
+
+    </EditText>
+
+    <ImageView
+        android:id="@+id/clock"
+        android:layout_width="56dp"
+        android:layout_height="54dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        app:srcCompat="@drawable/clock"
+        />
+
+</RelativeLayout>
