@@ -13,6 +13,7 @@ public class Model {
         this.data = data;
         this.desk = desk;
         this.time = time;
+
     }
 
     public String getData() {

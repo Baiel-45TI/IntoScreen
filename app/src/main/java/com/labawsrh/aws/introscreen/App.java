@@ -8,14 +8,29 @@ import android.os.Build;
 public class App extends Application {
     public static final String CHANNEL_1_ID = "channel1";
     public static final String CHANNEL_2_ID = "channel2";
+    private static App instance;
 
+
+
+    public static App getInstance() {
+        return instance;
+    }
 
     @Override
     public void onCreate() {
         super.onCreate();
 
+        instance = this;
+
+
+
+
         createNotificationChannels();
     }
+
+
+
+
 
     private void createNotificationChannels() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
@@ -34,7 +49,6 @@ public class App extends Application {
             channel2.setDescription("This is Channel 2");
 
 
-
             channel2.setDescription("This is Channel 3");
 
             NotificationManager manager = getSystemService(NotificationManager.class);
@@ -42,6 +56,13 @@ public class App extends Application {
             manager.createNotificationChannel(channel2);
 
         }
+
+    }
+
+    public NoteDao getNoteDao() {
+        return null;
     }
 }
+    
+
 

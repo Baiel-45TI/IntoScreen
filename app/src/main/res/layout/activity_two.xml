@@ -58,7 +58,6 @@
         android:layout_width="285dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-
         android:textSize="15dp"
         android:layout_marginLeft="10dp"
         android:hint="Время не установил (весь день)">
@@ -111,5 +110,18 @@
         android:layout_marginRight="0dp"
         app:srcCompat="@drawable/clock"
         />
+
+
+    <ImageView
+        android:layout_width="164dp"
+        android:layout_height="171dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="95dp"
+        android:background="@drawable/xaxa">
+
+
+    </ImageView>
 
 </RelativeLayout>
